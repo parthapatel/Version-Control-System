@@ -32,8 +32,7 @@ public class FolderParser {
     private File srcFile;
     private File targetFile;
     private String srcFileName;
-
-
+    
     public FolderParser(String src, String dest) {
         this.src = src;
         this.dst = dest;
