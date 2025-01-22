@@ -75,7 +75,6 @@ public class FolderParser {
         try {
             if (!targetFile.exists()) {
                 Files.copy(Paths.get(f1.getAbsolutePath()), Paths.get(path));
-
             }
         } catch (IOException e) {
             e.printStackTrace();
